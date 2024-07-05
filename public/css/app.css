@@ -1,0 +1,71 @@
+.bg-secondary {
+  background-color: white !important;
+}
+
+.copyright {
+  background-color: #BA4B2F;
+}
+
+.bg-primary {
+  background-color:  black  !important;
+}
+
+.img-fluid{
+  height: 18vw;
+  object-fit: cover;
+  width: 900px; /* Choisissez la taille souhaitée */
+  height: auto; 
+}
+
+nav{
+  font-weight: 700;
+}
+
+.img-card{
+  height: 18vw;
+  object-fit: cover;
+}
+
+.card:hover{
+  transform: scale(1.05);
+  transition: 0.6s;
+}
+.logo {
+  width: auto;
+  height: 80PX; /* Vous pouvez ajuster cette valeur selon vos besoins */
+}
+/* body {
+  background-image: url('/img/bak.jpg'); /* Le chemin est relatif au répertoire public */
+  /* background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; */
+/* } */ 
+/* Style pour le texte blanc dans l'en-tête */
+header.masthead h2 {
+  color: white;
+}
+
+/* Style pour le texte blanc dans le pied de page */
+footer.copyright small {
+  color: white;
+}
+
+/* Style de la navbar */
+.R {
+  border-radius: 20px; /* Coins arrondis de la containerR */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Transition pour l'effet de survol */
+}
+
+/* Effet de survol pour la containerR */
+.R:hover {
+  background-color: #eec2b7; /* Couleur de fond au survol */
+  transform: scale(1.05); 
+}
+.btn{
+  background-color: #BA4B2F;
+}
+.btn:hover {
+  background-color: #eec2b7; /* Couleur de fond au survol */
+  transform: scale(1.05); 
+  
+}
